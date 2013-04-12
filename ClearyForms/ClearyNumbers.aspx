@@ -1,10 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ClearyNumbers.aspx.cs" Inherits="CapstoneMainForm.ClearyForms.ClearyNumbers" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <style type="text/css">
-        .style1
-        {
-            width: 59px;
-        }
         .style2
         {
             width: 58px;
@@ -384,12 +380,6 @@
                 <asp:Label ID="lblC3P3" runat="server" 
                     Text="Disiplinary Actions/ Judicial Referrals"></asp:Label>
             </td>
-            <td colspan="3">
-                <asp:Label ID="Label1" runat="server" Text="Non-Campus Building Arrests"></asp:Label>
-            </td>
-            <td colspan="3">
-                <asp:Label ID="Label2" runat="server" Text="Public Property Arrests"></asp:Label>
-            </td>
         </tr>
         <tr>
             <td>
@@ -421,24 +411,6 @@
             </td>
             <td class="style5">
                 <asp:Label ID="Yr3_3P3" runat="server"></asp:Label>
-            </td>
-            <td class="style5">
-                <asp:Label ID="Yr4_1P3" runat="server"></asp:Label>
-            </td>
-            <td class="style5">
-                <asp:Label ID="Yr4_2P3" runat="server"></asp:Label>
-            </td>
-            <td class="style5">
-                <asp:Label ID="Yr4_3P3" runat="server"></asp:Label>
-            </td>
-            <td class="style5">
-                <asp:Label ID="Yr5_1P3" runat="server"></asp:Label>
-            </td>
-            <td class="style5">
-                <asp:Label ID="Yr5_2P3" runat="server"></asp:Label>
-            </td>
-            <td class="style5">
-                <asp:Label ID="Yr5_3P3" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>
@@ -522,49 +494,105 @@
                     ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
                     style="color: #FF0000"></asp:RangeValidator>
             </td>
-            <td class="style5">
-                <asp:TextBox ID="txtY1C4P3" runat="server" Width="30px">0</asp:TextBox>
-                <br />
-                <asp:RangeValidator ID="valY1C4P3" runat="server" ControlToValidate="txtY1C4P3" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
-            </td>
-            <td class="style5">
-                <asp:TextBox ID="txtY2C4P3" runat="server" Width="30px">0</asp:TextBox>
-                <br />
-                <asp:RangeValidator ID="valY2C4P3" runat="server" ControlToValidate="txtY2C4P3" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
-            </td>
-            <td class="style5">
-                <asp:TextBox ID="txtY3C4P3" runat="server" Width="30px">0</asp:TextBox>
-                <br />
-                <asp:RangeValidator ID="valY3C4P3" runat="server" ControlToValidate="txtY3C4P3" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
-            </td>
-            <td class="style5">
-                <asp:TextBox ID="txtY1C5P3" runat="server" Width="30px">0</asp:TextBox>
-                <br />
-                <asp:RangeValidator ID="valY1C5P3" runat="server" ControlToValidate="txtY1C5P3" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
-            </td>
-            <td class="style5">
-                <asp:TextBox ID="txtY2C5P3" runat="server" Width="30px">0</asp:TextBox>
-                <br />
-                <asp:RangeValidator ID="valY2C5P3" runat="server" ControlToValidate="txtY2C5P3" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
-            </td>
-            <td class="style5">
-                <asp:TextBox ID="txtY3C5P3" runat="server" Width="30px">0</asp:TextBox>
-                <br />
-                <asp:RangeValidator ID="valY3C5P3" runat="server" ControlToValidate="txtY3C5P3" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
-            </td>
         </tr>
+        </table>
+        &nbsp;<table border="2" cellpadding="2" cellspacing="3">
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td colspan="3">
+                    <asp:Label ID="Label1" runat="server" Text="Non-Campus Building Arrests"></asp:Label>
+                </td>
+                <td colspan="3">
+                    <asp:Label ID="Label2" runat="server" Text="Public Property Arrests"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="style5">
+                    &nbsp;</td>
+                <td class="style5">
+                    &nbsp;</td>
+                <td class="style5">
+                    &nbsp;</td>
+                <td class="style5">
+                    &nbsp;</td>
+                <td class="style5">
+                    <asp:Label ID="Yr4_1P3" runat="server"></asp:Label>
+                </td>
+                <td class="style5">
+                    <asp:Label ID="Yr4_2P3" runat="server"></asp:Label>
+                </td>
+                <td class="style5">
+                    <asp:Label ID="Yr4_3P3" runat="server"></asp:Label>
+                </td>
+                <td class="style5">
+                    <asp:Label ID="Yr5_1P3" runat="server"></asp:Label>
+                </td>
+                <td class="style5">
+                    <asp:Label ID="Yr5_2P3" runat="server"></asp:Label>
+                </td>
+                <td class="style5">
+                    <asp:Label ID="Yr5_3P3" runat="server"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="style5">
+                    &nbsp;</td>
+                <td class="style5">
+                    &nbsp;</td>
+                <td class="style5">
+                    &nbsp;</td>
+                <td class="style5">
+                    &nbsp;</td>
+                <td class="style5">
+                    <asp:TextBox ID="txtY1C4P3" runat="server" Width="30px">0</asp:TextBox>
+                    <br />
+                    <asp:RangeValidator ID="valY1C4P3" runat="server" ControlToValidate="txtY1C4P3" 
+                        ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
+                        style="color: #FF0000"></asp:RangeValidator>
+                </td>
+                <td class="style5">
+                    <asp:TextBox ID="txtY2C4P3" runat="server" Width="30px">0</asp:TextBox>
+                    <br />
+                    <asp:RangeValidator ID="valY2C4P3" runat="server" ControlToValidate="txtY2C4P3" 
+                        ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
+                        style="color: #FF0000"></asp:RangeValidator>
+                </td>
+                <td class="style5">
+                    <asp:TextBox ID="txtY3C4P3" runat="server" Width="30px">0</asp:TextBox>
+                    <br />
+                    <asp:RangeValidator ID="valY3C4P3" runat="server" ControlToValidate="txtY3C4P3" 
+                        ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
+                        style="color: #FF0000"></asp:RangeValidator>
+                </td>
+                <td class="style5">
+                    <asp:TextBox ID="txtY1C5P3" runat="server" Width="30px">0</asp:TextBox>
+                    <br />
+                    <asp:RangeValidator ID="valY1C5P3" runat="server" ControlToValidate="txtY1C5P3" 
+                        ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
+                        style="color: #FF0000"></asp:RangeValidator>
+                </td>
+                <td class="style5">
+                    <asp:TextBox ID="txtY2C5P3" runat="server" Width="30px">0</asp:TextBox>
+                    <br />
+                    <asp:RangeValidator ID="valY2C5P3" runat="server" ControlToValidate="txtY2C5P3" 
+                        ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
+                        style="color: #FF0000"></asp:RangeValidator>
+                </td>
+                <td class="style5">
+                    <asp:TextBox ID="txtY3C5P3" runat="server" Width="30px">0</asp:TextBox>
+                    <br />
+                    <asp:RangeValidator ID="valY3C5P3" runat="server" ControlToValidate="txtY3C5P3" 
+                        ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
+                        style="color: #FF0000"></asp:RangeValidator>
+                </td>
+            </tr>
         </table>
     </asp:Panel>
 

@@ -81,7 +81,7 @@ namespace CapstoneMainForm.ClearyForms
             {
                 // Javascript Error Message
                 Response.Write("<script LANGUAGE='JavaScript'>alert('Oh No!  Something has gone wrong.  Please contact your system administrator.  If you choose to continue, if you go on you probably will be get fines.');</script>");
-            
+
             }
         }
 
@@ -241,7 +241,7 @@ namespace CapstoneMainForm.ClearyForms
                 strItem = ddlCrimOff.Text;
             }
 
-                // Connects to DB
+            // Connects to DB
             using (conn = new SqlConnection(CongifManage.ConnectionStrings["conn"].ConnectionString))
             {
                 // Using CrimOff DB connection
@@ -290,7 +290,7 @@ namespace CapstoneMainForm.ClearyForms
                 strItem = ddlHateOff.Text;
             }
 
-                // Connects to DB
+            // Connects to DB
             using (conn = new SqlConnection(CongifManage.ConnectionStrings["conn"].ConnectionString))
             {
                 // Using HateOff DB connection
@@ -339,7 +339,7 @@ namespace CapstoneMainForm.ClearyForms
                 strItem = ddlDAW.Text;
             }
 
-                // Connects to DB
+            // Connects to DB
             using (conn = new SqlConnection(CongifManage.ConnectionStrings["conn"].ConnectionString))
             {
                 // Using DAW DB connection
@@ -420,7 +420,5 @@ namespace CapstoneMainForm.ClearyForms
             }
         }
         #endregion
-
-        
     }
 }
