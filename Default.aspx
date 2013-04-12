@@ -2,17 +2,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    Log in and Subscribe for for $100.00 before continuing:<br />
+    <asp:Label ID="Label1" runat="server" 
+        Text="Welcome Click this button to continue"></asp:Label>
     <br />
-    <script 
-    data-callback="http://notes.marietta.edu:8028/mcsec/ClearyForms/Survey.aspx" 
-    data-period="Y" 
-    data-recurrence="1" 
-    data-amount="100.00" 
-    data-name="ClearyReport" 
-    data-button="subscribe" src="Scripts/JScript-PaypalBtn.js?merchant=ACDCLive33@yahoo.com"
-></script>
-<br />
-<br />
-    <asp:Button ID="Button1" runat="server" Text="Button" onclick="Continue_Click" />
+    <br />
+    <asp:Button ID="Continue" runat="server" onclick="Continue_Click" 
+        Text="Continue" />
 </asp:Content>

@@ -247,13 +247,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY1C1P1;
         
         /// <summary>
-        /// valY1C1P1 control.
+        /// RegularExpressionValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY1C1P1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
         
         /// <summary>
         /// txtY2C1P1 control.
@@ -265,13 +265,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY2C1P1;
         
         /// <summary>
-        /// valY2C1P1 control.
+        /// RegularExpressionValidator2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY2C1P1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator2;
         
         /// <summary>
         /// txtY3C1P1 control.
@@ -283,13 +283,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY3C1P1;
         
         /// <summary>
-        /// valY3C1P1 control.
+        /// RegularExpressionValidator3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY3C1P1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator3;
         
         /// <summary>
         /// txtY1C2P1 control.
@@ -301,13 +301,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY1C2P1;
         
         /// <summary>
-        /// valY1C2P1 control.
+        /// RegularExpressionValidator4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY1C2P1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator4;
         
         /// <summary>
         /// txtY2C2P1 control.
@@ -319,13 +319,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY2C2P1;
         
         /// <summary>
-        /// valY2C2P1 control.
+        /// RegularExpressionValidator5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY2C2P1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator5;
         
         /// <summary>
         /// txtY3C2P1 control.
@@ -337,13 +337,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY3C2P1;
         
         /// <summary>
-        /// valY3C2P1 control.
+        /// RegularExpressionValidator6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY3C2P1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator6;
         
         /// <summary>
         /// txtY1C3P1 control.
@@ -355,13 +355,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY1C3P1;
         
         /// <summary>
-        /// valY1C3P1 control.
+        /// RegularExpressionValidator7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY1C3P1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator7;
         
         /// <summary>
         /// txtY2C3P1 control.
@@ -373,13 +373,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY2C3P1;
         
         /// <summary>
-        /// valY2C3P1 control.
+        /// RegularExpressionValidator8 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY2C3P1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator8;
         
         /// <summary>
         /// txtY3C3P1 control.
@@ -391,13 +391,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY3C3P1;
         
         /// <summary>
-        /// valY3C3P1 control.
+        /// RegularExpressionValidator9 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY3C3P1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator9;
         
         /// <summary>
         /// txtY1C4P1 control.
@@ -409,13 +409,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY1C4P1;
         
         /// <summary>
-        /// valY1C4P1 control.
+        /// RegularExpressionValidator10 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY1C4P1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator10;
         
         /// <summary>
         /// txtY2C4P1 control.
@@ -427,13 +427,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY2C4P1;
         
         /// <summary>
-        /// valY2C4P1 control.
+        /// RegularExpressionValidator11 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY2C4P1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator11;
         
         /// <summary>
         /// txtY3C4P1 control.
@@ -445,13 +445,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY3C4P1;
         
         /// <summary>
-        /// valY3C4P1 control.
+        /// RegularExpressionValidator12 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY3C4P1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator12;
         
         /// <summary>
         /// Panel2 control.
@@ -652,13 +652,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY1C1P2;
         
         /// <summary>
-        /// valY1C1P2 control.
+        /// RegularExpressionValidator13 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY1C1P2;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator13;
         
         /// <summary>
         /// txtY2C1P2 control.
@@ -670,13 +670,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY2C1P2;
         
         /// <summary>
-        /// valY2C1P2 control.
+        /// RegularExpressionValidator14 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY2C1P2;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator14;
         
         /// <summary>
         /// txtY3C1P2 control.
@@ -688,13 +688,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY3C1P2;
         
         /// <summary>
-        /// valY3C1P2 control.
+        /// RegularExpressionValidator15 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY3C1P2;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator15;
         
         /// <summary>
         /// txtY1C2P2 control.
@@ -706,13 +706,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY1C2P2;
         
         /// <summary>
-        /// valY1C2P2 control.
+        /// RegularExpressionValidator16 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY1C2P2;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator16;
         
         /// <summary>
         /// txtY2C2P2 control.
@@ -724,13 +724,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY2C2P2;
         
         /// <summary>
-        /// valY2C2P2 control.
+        /// RegularExpressionValidator17 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY2C2P2;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator17;
         
         /// <summary>
         /// txtY3C2P2 control.
@@ -742,13 +742,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY3C2P2;
         
         /// <summary>
-        /// valY3C2P2 control.
+        /// RegularExpressionValidator18 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY3C2P2;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator18;
         
         /// <summary>
         /// txtY1C3P2 control.
@@ -760,13 +760,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY1C3P2;
         
         /// <summary>
-        /// valY1C3P2 control.
+        /// RegularExpressionValidator19 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY1C3P2;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator19;
         
         /// <summary>
         /// txtY2C3P2 control.
@@ -778,13 +778,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY2C3P2;
         
         /// <summary>
-        /// valY2C3P2 control.
+        /// RegularExpressionValidator20 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY2C3P2;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator20;
         
         /// <summary>
         /// txtY3C3P2 control.
@@ -796,13 +796,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY3C3P2;
         
         /// <summary>
-        /// valY3C3P2 control.
+        /// RegularExpressionValidator21 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY3C3P2;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator21;
         
         /// <summary>
         /// txtY1C4P2 control.
@@ -814,13 +814,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY1C4P2;
         
         /// <summary>
-        /// valY1C4P2 control.
+        /// RegularExpressionValidator22 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY1C4P2;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator22;
         
         /// <summary>
         /// txtY2C4P2 control.
@@ -832,13 +832,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY2C4P2;
         
         /// <summary>
-        /// valY2C4P2 control.
+        /// RegularExpressionValidator23 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY2C4P2;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator23;
         
         /// <summary>
         /// txtY3C4P2 control.
@@ -850,13 +850,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY3C4P2;
         
         /// <summary>
-        /// valY3C4P2 control.
+        /// RegularExpressionValidator24 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY3C4P2;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator24;
         
         /// <summary>
         /// Panel3 control.
@@ -893,6 +893,24 @@ namespace CapstoneMainForm.ClearyForms {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblC3P3;
+        
+        /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
+        
+        /// <summary>
+        /// Label2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
         /// lblP3Topic control.
@@ -985,6 +1003,60 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.Label Yr3_3P3;
         
         /// <summary>
+        /// Yr4_1P3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Yr4_1P3;
+        
+        /// <summary>
+        /// Yr4_2P3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Yr4_2P3;
+        
+        /// <summary>
+        /// Yr4_3P3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Yr4_3P3;
+        
+        /// <summary>
+        /// Yr5_1P3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Yr5_1P3;
+        
+        /// <summary>
+        /// Yr5_2P3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Yr5_2P3;
+        
+        /// <summary>
+        /// Yr5_3P3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Yr5_3P3;
+        
+        /// <summary>
         /// ddlDAW control.
         /// </summary>
         /// <remarks>
@@ -1021,13 +1093,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY1C1P3;
         
         /// <summary>
-        /// valY1C1P3 control.
+        /// RegularExpressionValidator25 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY1C1P3;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator25;
         
         /// <summary>
         /// txtY2C1P3 control.
@@ -1039,13 +1111,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY2C1P3;
         
         /// <summary>
-        /// valY2C1P3 control.
+        /// RegularExpressionValidator26 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY2C1P3;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator26;
         
         /// <summary>
         /// txtY3C1P3 control.
@@ -1057,13 +1129,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY3C1P3;
         
         /// <summary>
-        /// valY3C1P3 control.
+        /// RegularExpressionValidator27 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY3C1P3;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator27;
         
         /// <summary>
         /// txtY1C2P3 control.
@@ -1075,13 +1147,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY1C2P3;
         
         /// <summary>
-        /// valY1C2P3 control.
+        /// RegularExpressionValidator30 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY1C2P3;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator30;
         
         /// <summary>
         /// txtY2C2P3 control.
@@ -1093,13 +1165,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY2C2P3;
         
         /// <summary>
-        /// valY2C2P3 control.
+        /// RegularExpressionValidator28 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY2C2P3;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator28;
         
         /// <summary>
         /// txtY3C2P3 control.
@@ -1111,13 +1183,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY3C2P3;
         
         /// <summary>
-        /// valY3C2P3 control.
+        /// RegularExpressionValidator29 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY3C2P3;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator29;
         
         /// <summary>
         /// txtY1C3P3 control.
@@ -1129,13 +1201,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY1C3P3;
         
         /// <summary>
-        /// valY1C3P3 control.
+        /// RegularExpressionValidator31 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY1C3P3;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator31;
         
         /// <summary>
         /// txtY2C3P3 control.
@@ -1147,13 +1219,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY2C3P3;
         
         /// <summary>
-        /// valY2C3P3 control.
+        /// RegularExpressionValidator32 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY2C3P3;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator32;
         
         /// <summary>
         /// txtY3C3P3 control.
@@ -1165,13 +1237,121 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY3C3P3;
         
         /// <summary>
-        /// valY3C3P3 control.
+        /// RegularExpressionValidator33 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY3C3P3;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator33;
+        
+        /// <summary>
+        /// txtY1C4P3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtY1C4P3;
+        
+        /// <summary>
+        /// RegularExpressionValidator34 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator34;
+        
+        /// <summary>
+        /// txtY2C4P3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtY2C4P3;
+        
+        /// <summary>
+        /// RegularExpressionValidator35 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator35;
+        
+        /// <summary>
+        /// txtY3C4P3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtY3C4P3;
+        
+        /// <summary>
+        /// RegularExpressionValidator36 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator36;
+        
+        /// <summary>
+        /// txtY1C5P3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtY1C5P3;
+        
+        /// <summary>
+        /// RegularExpressionValidator37 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator37;
+        
+        /// <summary>
+        /// txtY2C5P3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtY2C5P3;
+        
+        /// <summary>
+        /// RegularExpressionValidator38 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator38;
+        
+        /// <summary>
+        /// txtY3C5P3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtY3C5P3;
+        
+        /// <summary>
+        /// RegularExpressionValidator39 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator39;
         
         /// <summary>
         /// Panel4 control.
@@ -1255,13 +1435,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY1C1P4;
         
         /// <summary>
-        /// valY1C1P4 control.
+        /// RegularExpressionValidator40 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY1C1P4;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator40;
         
         /// <summary>
         /// txtY2C1P4 control.
@@ -1273,13 +1453,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY2C1P4;
         
         /// <summary>
-        /// valY2C1P4 control.
+        /// RegularExpressionValidator41 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY2C1P4;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator41;
         
         /// <summary>
         /// txtY3C1P4 control.
@@ -1291,13 +1471,13 @@ namespace CapstoneMainForm.ClearyForms {
         protected global::System.Web.UI.WebControls.TextBox txtY3C1P4;
         
         /// <summary>
-        /// valY3C1P4 control.
+        /// RegularExpressionValidator42 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator valY3C1P4;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator42;
         
         /// <summary>
         /// btnCreateRep control.

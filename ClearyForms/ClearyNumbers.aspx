@@ -110,86 +110,86 @@
                     Visible="False" />
             </td>
             <td class="style7">
-                <asp:TextBox ID="txtY1C1P1" runat="server" Width="30px">0</asp:TextBox>
-                <asp:RangeValidator ID="valY1C1P1" runat="server" ControlToValidate="txtY1C1P1" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:TextBox ID="txtY1C1P1" runat="server" Width="29px" Height="22px">0</asp:TextBox>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" 
+                    ControlToValidate="txtY1C1P1" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY2C1P1" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY2C1P1" runat="server" ControlToValidate="txtY2C1P1" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" 
+                    ControlToValidate="txtY2C1P1" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY3C1P1" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY3C1P1" runat="server" ControlToValidate="txtY3C1P1" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" 
+                    ControlToValidate="txtY3C1P1" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY1C2P1" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY1C2P1" runat="server" ControlToValidate="txtY1C2P1" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" 
+                    ControlToValidate="txtY1C2P1" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY2C2P1" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY2C2P1" runat="server" ControlToValidate="txtY2C2P1" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" 
+                    ControlToValidate="txtY2C2P1" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY3C2P1" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY3C2P1" runat="server" ControlToValidate="txtY2C2P1" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator6" runat="server" 
+                    ControlToValidate="txtY3C2P1" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY1C3P1" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY1C3P1" runat="server" ControlToValidate="txtY1C3P1" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator7" runat="server" 
+                    ControlToValidate="txtY1C3P1" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY2C3P1" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY2C3P1" runat="server" ControlToValidate="txtY2C3P1" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator8" runat="server" 
+                    ControlToValidate="txtY2C3P1" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY3C3P1" runat="server" Width="30px">0</asp:TextBox>
-                <asp:RangeValidator ID="valY3C3P1" runat="server" ControlToValidate="txtY3C3P1" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator9" runat="server" 
+                    ControlToValidate="txtY3C3P1" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY1C4P1" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY1C4P1" runat="server" ControlToValidate="txtY1C4P1" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator10" 
+                    runat="server" ControlToValidate="txtY1C4P1" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY2C4P1" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY2C4P1" runat="server" ControlToValidate="txtY2C4P1" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator11" 
+                    runat="server" ControlToValidate="txtY2C4P1" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY3C4P1" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY3C4P1" runat="server" ControlToValidate="txtY3C4P1" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator12" 
+                    runat="server" ControlToValidate="txtY3C4P1" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
         </tr>
         </table>
@@ -279,85 +279,85 @@
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY1C1P2" runat="server" Width="30px">0</asp:TextBox>
-                <asp:RangeValidator ID="valY1C1P2" runat="server" ControlToValidate="txtY1C1P2" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator13" 
+                    runat="server" ControlToValidate="txtY1C1P2" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY2C1P2" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY2C1P2" runat="server" ControlToValidate="txtY2C1P2" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator14" 
+                    runat="server" ControlToValidate="txtY2C1P2" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY3C1P2" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY3C1P2" runat="server" ControlToValidate="txtY3C1P2" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator15" 
+                    runat="server" ControlToValidate="txtY3C1P2" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY1C2P2" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY1C2P2" runat="server" ControlToValidate="txtY1C2P2" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator16" 
+                    runat="server" ControlToValidate="txtY1C2P2" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY2C2P2" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY2C2P2" runat="server" ControlToValidate="txtY2C2P2" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator17" 
+                    runat="server" ControlToValidate="txtY2C2P2" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY3C2P2" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY3C2P2" runat="server" ControlToValidate="txtY3C2P2" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator18" 
+                    runat="server" ControlToValidate="txtY2C2P2" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY1C3P2" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY1C3P2" runat="server" ControlToValidate="txtY1C3P2" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator19" 
+                    runat="server" ControlToValidate="txtY1C3P2" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY2C3P2" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY2C3P2" runat="server" ControlToValidate="txtY2C3P2" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator20" 
+                    runat="server" ControlToValidate="txtY2C3P2" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY3C3P2" runat="server" Width="30px">0</asp:TextBox>
-                <asp:RangeValidator ID="valY3C3P2" runat="server" ControlToValidate="txtY3C3P2" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator21" 
+                    runat="server" ControlToValidate="txtY3C3P2" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY1C4P2" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY1C4P2" runat="server" ControlToValidate="txtY1C4P2" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator22" 
+                    runat="server" ControlToValidate="txtY1C4P2" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY2C4P2" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY2C4P2" runat="server" ControlToValidate="txtY2C4P2" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator23" 
+                    runat="server" ControlToValidate="txtY2C4P2" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY3C4P2" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY3C4P2" runat="server" ControlToValidate="txtY3C4P2" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator24" 
+                    runat="server" ControlToValidate="txtY3C4P2" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
         </tr>
         </table>
@@ -379,6 +379,12 @@
             <td colspan="3">
                 <asp:Label ID="lblC3P3" runat="server" 
                     Text="Disiplinary Actions/ Judicial Referrals"></asp:Label>
+            </td>
+            <td colspan="3">
+                <asp:Label ID="Label1" runat="server" Text="Non-Campus Building Arrests"></asp:Label>
+            </td>
+            <td colspan="3">
+                <asp:Label ID="Label2" runat="server" Text="Public Property Arrests"></asp:Label>
             </td>
         </tr>
         <tr>
@@ -412,6 +418,24 @@
             <td class="style5">
                 <asp:Label ID="Yr3_3P3" runat="server"></asp:Label>
             </td>
+            <td class="style5">
+                <asp:Label ID="Yr4_1P3" runat="server"></asp:Label>
+            </td>
+            <td class="style5">
+                <asp:Label ID="Yr4_2P3" runat="server"></asp:Label>
+            </td>
+            <td class="style5">
+                <asp:Label ID="Yr4_3P3" runat="server"></asp:Label>
+            </td>
+            <td class="style5">
+                <asp:Label ID="Yr5_1P3" runat="server"></asp:Label>
+            </td>
+            <td class="style5">
+                <asp:Label ID="Yr5_2P3" runat="server"></asp:Label>
+            </td>
+            <td class="style5">
+                <asp:Label ID="Yr5_3P3" runat="server"></asp:Label>
+            </td>
         </tr>
         <tr>
             <td class="style2">
@@ -434,165 +458,109 @@
             <td class="style5">
                 <asp:TextBox ID="txtY1C1P3" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY1C1P3" runat="server" ControlToValidate="txtY1C1P3" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator25" 
+                    runat="server" ControlToValidate="txtY1C1P3" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style5">
                 <asp:TextBox ID="txtY2C1P3" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY2C1P3" runat="server" ControlToValidate="txtY2C1P3" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator26" 
+                    runat="server" ControlToValidate="txtY2C1P3" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style5">
                 <asp:TextBox ID="txtY3C1P3" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY3C1P3" runat="server" ControlToValidate="txtY3C1P3" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator27" 
+                    runat="server" ControlToValidate="txtY3C1P3" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style5">
                 <asp:TextBox ID="txtY1C2P3" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY1C2P3" runat="server" ControlToValidate="txtY1C2P3" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator30" 
+                    runat="server" ControlToValidate="txtY1C2P3" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style5">
                 <asp:TextBox ID="txtY2C2P3" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY2C2P3" runat="server" ControlToValidate="txtY2C2P3" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator28" 
+                    runat="server" ControlToValidate="txtY2C2P3" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style5">
                 <asp:TextBox ID="txtY3C2P3" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY3C2P3" runat="server" ControlToValidate="txtY3C2P3" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator29" 
+                    runat="server" ControlToValidate="txtY3C2P3" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style5">
                 <asp:TextBox ID="txtY1C3P3" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY1C3P3" runat="server" ControlToValidate="txtY1C3P3" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator31" 
+                    runat="server" ControlToValidate="txtY1C3P3" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style5">
                 <asp:TextBox ID="txtY2C3P3" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY2C3P3" runat="server" ControlToValidate="txtY2C3P3" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator32" 
+                    runat="server" ControlToValidate="txtY2C3P3" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style5">
                 <asp:TextBox ID="txtY3C3P3" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY3C3P3" runat="server" ControlToValidate="txtY3C3P3" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator33" 
+                    runat="server" ControlToValidate="txtY3C3P3" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
+            </td>
+            <td class="style5">
+                <asp:TextBox ID="txtY1C4P3" runat="server" Width="30px">0</asp:TextBox>
+                <br />
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator34" 
+                    runat="server" ControlToValidate="txtY1C4P3" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
+            </td>
+            <td class="style5">
+                <asp:TextBox ID="txtY2C4P3" runat="server" Width="30px">0</asp:TextBox>
+                <br />
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator35" 
+                    runat="server" ControlToValidate="txtY2C4P3" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
+            </td>
+            <td class="style5">
+                <asp:TextBox ID="txtY3C4P3" runat="server" Width="30px">0</asp:TextBox>
+                <br />
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator36" 
+                    runat="server" ControlToValidate="txtY3C4P3" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
+            </td>
+            <td class="style5">
+                <asp:TextBox ID="txtY1C5P3" runat="server" Width="30px">0</asp:TextBox>
+                <br />
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator37" 
+                    runat="server" ControlToValidate="txtY1C5P3" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
+            </td>
+            <td class="style5">
+                <asp:TextBox ID="txtY2C5P3" runat="server" Width="30px">0</asp:TextBox>
+                <br />
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator38" 
+                    runat="server" ControlToValidate="txtY2C5P3" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
+            </td>
+            <td class="style5">
+                <asp:TextBox ID="txtY3C5P3" runat="server" Width="30px">0</asp:TextBox>
+                <br />
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator39" 
+                    runat="server" ControlToValidate="txtY3C5P3" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
         </tr>
-        </table>
-        &nbsp;<table border="2" cellpadding="2" cellspacing="3">
-            <tr>
-                <td>
-                    &nbsp;</td>
-                <td>
-                    &nbsp;</td>
-                <td>
-                    &nbsp;</td>
-                <td>
-                    &nbsp;</td>
-                <td colspan="3">
-                    <asp:Label ID="Label1" runat="server" Text="Non-Campus Building Arrests"></asp:Label>
-                </td>
-                <td colspan="3">
-                    <asp:Label ID="Label2" runat="server" Text="Public Property Arrests"></asp:Label>
-                </td>
-            </tr>
-            <tr>
-                <td class="style5">
-                    &nbsp;</td>
-                <td class="style5">
-                    &nbsp;</td>
-                <td class="style5">
-                    &nbsp;</td>
-                <td class="style5">
-                    &nbsp;</td>
-                <td class="style5">
-                    <asp:Label ID="Yr4_1P3" runat="server"></asp:Label>
-                </td>
-                <td class="style5">
-                    <asp:Label ID="Yr4_2P3" runat="server"></asp:Label>
-                </td>
-                <td class="style5">
-                    <asp:Label ID="Yr4_3P3" runat="server"></asp:Label>
-                </td>
-                <td class="style5">
-                    <asp:Label ID="Yr5_1P3" runat="server"></asp:Label>
-                </td>
-                <td class="style5">
-                    <asp:Label ID="Yr5_2P3" runat="server"></asp:Label>
-                </td>
-                <td class="style5">
-                    <asp:Label ID="Yr5_3P3" runat="server"></asp:Label>
-                </td>
-            </tr>
-            <tr>
-                <td class="style5">
-                    &nbsp;</td>
-                <td class="style5">
-                    &nbsp;</td>
-                <td class="style5">
-                    &nbsp;</td>
-                <td class="style5">
-                    &nbsp;</td>
-                <td class="style5">
-                    <asp:TextBox ID="txtY1C4P3" runat="server" Width="30px">0</asp:TextBox>
-                    <br />
-                    <asp:RangeValidator ID="valY1C4P3" runat="server" ControlToValidate="txtY1C4P3" 
-                        ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                        style="color: #FF0000"></asp:RangeValidator>
-                </td>
-                <td class="style5">
-                    <asp:TextBox ID="txtY2C4P3" runat="server" Width="30px">0</asp:TextBox>
-                    <br />
-                    <asp:RangeValidator ID="valY2C4P3" runat="server" ControlToValidate="txtY2C4P3" 
-                        ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                        style="color: #FF0000"></asp:RangeValidator>
-                </td>
-                <td class="style5">
-                    <asp:TextBox ID="txtY3C4P3" runat="server" Width="30px">0</asp:TextBox>
-                    <br />
-                    <asp:RangeValidator ID="valY3C4P3" runat="server" ControlToValidate="txtY3C4P3" 
-                        ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                        style="color: #FF0000"></asp:RangeValidator>
-                </td>
-                <td class="style5">
-                    <asp:TextBox ID="txtY1C5P3" runat="server" Width="30px">0</asp:TextBox>
-                    <br />
-                    <asp:RangeValidator ID="valY1C5P3" runat="server" ControlToValidate="txtY1C5P3" 
-                        ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                        style="color: #FF0000"></asp:RangeValidator>
-                </td>
-                <td class="style5">
-                    <asp:TextBox ID="txtY2C5P3" runat="server" Width="30px">0</asp:TextBox>
-                    <br />
-                    <asp:RangeValidator ID="valY2C5P3" runat="server" ControlToValidate="txtY2C5P3" 
-                        ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                        style="color: #FF0000"></asp:RangeValidator>
-                </td>
-                <td class="style5">
-                    <asp:TextBox ID="txtY3C5P3" runat="server" Width="30px">0</asp:TextBox>
-                    <br />
-                    <asp:RangeValidator ID="valY3C5P3" runat="server" ControlToValidate="txtY3C5P3" 
-                        ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                        style="color: #FF0000"></asp:RangeValidator>
-                </td>
-            </tr>
         </table>
     </asp:Panel>
 
@@ -641,23 +609,23 @@
             <td class="style7">
                 <asp:TextBox ID="txtY1C1P4" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY1C1P4" runat="server" ControlToValidate="txtY1C1P4" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator40" 
+                    runat="server" ControlToValidate="txtY1C1P4" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY2C1P4" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY2C1P4" runat="server" ControlToValidate="txtY2C1P4" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator41" 
+                    runat="server" ControlToValidate="txtY2C1P4" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtY3C1P4" runat="server" Width="30px">0</asp:TextBox>
                 <br />
-                <asp:RangeValidator ID="valY3C1P4" runat="server" ControlToValidate="txtY3C1P4" 
-                    ErrorMessage="Must Be A Number" MaximumValue="10000" MinimumValue="0" 
-                    style="color: #FF0000"></asp:RangeValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator42" 
+                    runat="server" ControlToValidate="txtY3C1P4" ErrorMessage="Needs a Number" 
+                    style="color: #FF0000" ValidationExpression="[0-9]{1,10}"></asp:RegularExpressionValidator>
             </td>
         </tr>
         </table>

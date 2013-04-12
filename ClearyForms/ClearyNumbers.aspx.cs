@@ -81,7 +81,7 @@ namespace CapstoneMainForm.ClearyForms
             {
                 // Javascript Error Message
                 Response.Write("<script LANGUAGE='JavaScript'>alert('Oh No!  Something has gone wrong.  Please contact your system administrator.  If you choose to continue, if you go on you probably will be get fines.');</script>");
-
+            
             }
         }
 
@@ -152,6 +152,11 @@ namespace CapstoneMainForm.ClearyForms
             {
                 btnAddP1.Visible = true;
             }
+
+            txtY1C1P1.Text = txtY2C1P1.Text = txtY3C1P1.Text =
+                txtY1C2P1.Text = txtY2C2P1.Text = txtY3C2P1.Text =
+                txtY1C3P1.Text = txtY2C3P1.Text = txtY3C3P1.Text =
+                txtY1C4P1.Text = txtY2C4P1.Text = txtY3C4P1.Text = "0";
         }
 
         protected void HateOff_SelectedIndexChanged(object sender, EventArgs e)
@@ -176,6 +181,11 @@ namespace CapstoneMainForm.ClearyForms
             {
                 btnAddP2.Visible = true;
             }
+
+            txtY1C1P2.Text = txtY2C1P2.Text = txtY3C1P2.Text =
+                txtY1C2P2.Text = txtY2C2P2.Text = txtY3C2P2.Text =
+                txtY1C3P2.Text = txtY2C3P2.Text = txtY3C3P2.Text =
+                txtY1C4P2.Text = txtY2C4P2.Text = txtY3C4P2.Text = "0";
         }
 
         protected void DAW_SelectedIndexChanged(object sender, EventArgs e)
@@ -200,6 +210,12 @@ namespace CapstoneMainForm.ClearyForms
             {
                 btnAddP3.Visible = true;
             }
+
+            txtY1C1P3.Text = txtY2C1P3.Text = txtY3C1P3.Text =
+                txtY1C2P3.Text = txtY2C2P3.Text = txtY3C2P3.Text =
+                txtY1C3P3.Text = txtY2C3P3.Text = txtY3C3P3.Text =
+                txtY1C4P3.Text = txtY2C4P3.Text = txtY3C4P3.Text =
+                txtY1C5P3.Text = txtY2C5P3.Text = txtY3C5P3.Text = "0";
         }
 
         protected void FD_SelectedIndexChanged(object sender, EventArgs e)
@@ -224,6 +240,8 @@ namespace CapstoneMainForm.ClearyForms
             {
                 btnAddP4.Visible = true;
             }
+
+            txtY1C1P4.Text = txtY2C1P4.Text = txtY3C1P4.Text = "0";
         }
         #endregion
 
@@ -241,7 +259,7 @@ namespace CapstoneMainForm.ClearyForms
                 strItem = ddlCrimOff.Text;
             }
 
-            // Connects to DB
+                // Connects to DB
             using (conn = new SqlConnection(CongifManage.ConnectionStrings["conn"].ConnectionString))
             {
                 // Using CrimOff DB connection
@@ -290,7 +308,7 @@ namespace CapstoneMainForm.ClearyForms
                 strItem = ddlHateOff.Text;
             }
 
-            // Connects to DB
+                // Connects to DB
             using (conn = new SqlConnection(CongifManage.ConnectionStrings["conn"].ConnectionString))
             {
                 // Using HateOff DB connection
@@ -339,7 +357,7 @@ namespace CapstoneMainForm.ClearyForms
                 strItem = ddlDAW.Text;
             }
 
-            // Connects to DB
+                // Connects to DB
             using (conn = new SqlConnection(CongifManage.ConnectionStrings["conn"].ConnectionString))
             {
                 // Using DAW DB connection
@@ -420,5 +438,7 @@ namespace CapstoneMainForm.ClearyForms
             }
         }
         #endregion
+
+        
     }
 }
